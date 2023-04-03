@@ -6,6 +6,8 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
-    baseUrl:'https://demowebshop.tricentis.com/'
+    baseUrl:'https://demowebshop.tricentis.com/',
+    experimentalRunAllSpecs:true
+    
   },
 });
