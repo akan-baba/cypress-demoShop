@@ -1,5 +1,5 @@
 ///<reference types ="cypress" />
-import {Computers} from '../../page-objects/computers'
+import {Computers} from '../../../page-objects/demoShop/computers'
 const computers = new Computers()
 
 describe('Computers page', () => {

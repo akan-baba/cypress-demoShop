@@ -1,6 +1,6 @@
 ///<reference types = "cypress" />
 
-import {Page} from '../../page-objects/customerRegistration'
+import {Page} from '../../../page-objects/demoShop/customerRegistration'
 import { faker } from '@faker-js/faker';
 const page = new Page();
 const email = faker.internet.email();
